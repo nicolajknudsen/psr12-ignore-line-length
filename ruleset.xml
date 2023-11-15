@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="psr12-ignore-line-length">
+  <description>PSR 12 without warnings about lines being too long</description>
+
+  <rule ref="PSR12">
+
+    <exclude name="Generic.Files.LineLength.TooLong"/>
+
+  </rule>
+
+</ruleset>
